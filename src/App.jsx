@@ -24,6 +24,8 @@ import CartProvider from "./context/Cart.context";
 import CategoryDetails from "./components/CategoryDetails/CategoryDetails";
 import BrandsProvider from "./context/BrandsContext";
 import WishlistProvider from "./context/WishlistContext";
+import VerifyCode from "./pages/VerifyCode/VerifyCode";
+import ResetPassword from "./pages/ResetPassword/ResetPassword";
 
 function App() {
   const router = createBrowserRouter([
@@ -57,6 +59,8 @@ function App() {
           <Checkout/>
         </ProtectedRoute>},
         { path: "category/:id", element: <CategoryDetails /> },
+        {path:"verify-code",element:<VerifyCode />},
+        {path:"reset-password",element:<ResetPassword/>},
       ],
     },
   ]);

@@ -167,7 +167,7 @@ function handelChange(e){
               Password
             </label>
             <Link
-              to="/forgot-password"
+              to="/forgetpassword"
               className="text-green-600 text-xs hover:underline"
             >
               Forgot Password?
