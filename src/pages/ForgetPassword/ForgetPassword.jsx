@@ -36,7 +36,7 @@ export default function ForgetPassword() {
   }
 
   return (
-<div className="min-h-screen grid bg-gray-50 px-4 pt-10 place-items-start justify-center">
+<div className="min-h-screen grid bg-gray-50 px-5 pt-10 place-items-start justify-center">
       <div className="bg-white shadow rounded-lg p-8 w-full max-w-md">
         <div className="grid place-items-center mb-4">
           <div className="bg-green-100 text-green-600 p-4 rounded-full">
